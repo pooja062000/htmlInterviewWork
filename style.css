@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  
+}
+
+.outer{
+    width: 100%;
+    height: 700px;
+    float: left;
+    background-image: url('Images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box1{
+    width: 400px;
+    height: 400px;
+    margin-left: 17%;
+    margin-top: 6%;
+    border-radius: 20px 45px;
+    background-color: rgb(9 136 194);
+    padding: 50px 30px;
+    transform: rotate(2deg);
+
+}
+.box2{
+    width: 100%;
+    float: left;
+}
+.img-box{
+    width: 25%;
+    float: left;
+}
+.img{
+ margin-left: 30px;
+ width: 30px;
+}
+.text-box{
+    width: 75%;
+    float: left;
+}
+.text{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: -2px;
+    margin-right: 90px;
+}
+.box2{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.insu{
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    padding-left: 40px;
+    text-align: justify;
+
+}
+.start-text{
+    float: left;
+    margin-top: 25px;
+    background-color: #03A9F4;;
+    padding: 13px 23px;
+    margin-left: 45px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(251, 248, 248);
+    border-radius: 12px;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+}
+@media screen and (min-width: 1900px) and (max-width: 2000px){
+    .outer{
+        width: 100%;
+        height: 934px;
+        float: left;
+        background-image: url('Images/banner.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .box1{
+        margin-top: 16%;
+    
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1900px){
+    .outer{
+        width: 100%;
+        height: 934px;
+        float: left;
+        background-image: url('Images/banner.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .box1{
+        margin-top: 16%;
+    
+    }
+}
+
+
+@media screen and (min-width: 2000px) and (max-width: 2300px){
+    .outer{
+        width: 100%;
+        height: 934px;
+        float: left;
+        background-image: url('Images/banner.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .box1{
+        margin-top: 16%;
+    
+    }
+}
